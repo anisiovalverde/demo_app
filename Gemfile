@@ -20,6 +20,7 @@ group :assets do
 end
 
 group :production do
+  gem 'protected_attributes'
   gem 'pg'
 end
 # Use jquery as the JavaScript library
